@@ -6,3 +6,13 @@ SE.init({
         // Don't do anything yet
     }
 });
+
+var queryURL = “http://api.stackexchange.com/docs/users?site=stackoverflow”;
+
+$.ajax({
+      url: queryURL,
+      method: "GET"
+    }).then(function(response) {
+        console.log(response);
+
+});
