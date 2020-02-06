@@ -1,6 +1,6 @@
 SE.init({
     clientId: 17151,
-    key: '2DTX0ttCl8HX5AirFtN7)Q((',
+    key: 'mxEj)7l7)Hbz6PzEu0O2Bg((',
     channelUrl: 'https://davidcbalsley.github.io/stackexchange/blank',
     complete: function (data) {
         // Don't do anything yet
