@@ -7,7 +7,7 @@ SE.init({
     }
 });
 
-var queryURL = “http://api.stackexchange.com/docs/users?site=stackoverflow”;
+var queryURL = "https://api.stackexchange.com/docs/users?site=stackoverflow";
 
 $.ajax({
       url: queryURL,
